@@ -1,0 +1,9 @@
+<h1>Liste des Providers</h1>
+<table align="center" border="1">
+  <tr><th>Name</th><th>Email</th><th>Adress</th></tr>
+  <tr *ngFor="let p of providers">
+    <td>{{p.name}}</td>
+    <td>{{p.email}}</td>
+    <td>{{p.adress}}</td>
+  </tr>
+</table>
